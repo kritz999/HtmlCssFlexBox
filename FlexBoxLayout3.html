@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BridgeLabz</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: row;
+            margin: 0;
+        }
+        .col-1 {
+            background: #D7E8D4;
+            flex: 1;
+            padding: 1em;
+        }
+        .col-2 {
+            display: flex;
+            flex-direction: column;
+            flex: 5;
+        }
+        .content {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+        .content > article {
+            flex: 4;
+            min-height: 60vh;
+            padding: 1em;
+        }
+        header, footer {
+            background: yellowgreen;
+            height: 20vh;
+            text-align: center;
+            padding: 1em;
+        }
+        h1 {
+            color: rgb(5, 0, 10);
+            
+        }
+    </style>
+</head>
+<body>
+    <nav class="col-1">
+        <ul>
+            <li><a href="https://www.google.com/search?q=bridgelabz">Home</a></li>
+            <li><a href="https://www.bridgelabz.com/#teamSection">About</a></li>
+            <li><a href="https://www.bridgelabz.com/business">Business</a></li>
+            <li><a href="https://www.bridgelabz.com/#contactus">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="col-2">
+        <header>
+            <h1><strong>BridgeLabz is cool</strong></h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScILt4U1_hsgu3W7ozFracgcunngCa36dj3w&s" alt="BridgeLabz" width="25%">
+        </header>
+        <main class="content">
+            <article>
+                <p>At Bridgelabz, we're a techie community of</p>
+                <ul>
+                    <li>Technologies</li>
+                    <li>Thinkers</li>
+                    <li>Builders</li>
+                </ul>
+                <p>Working together to keep the Tech Employability of Engineers alive and accessible, so Tech Companies worldwide can get contributors and creators for Technology Solutions.<br>
+                   We believe this act of human collaboration across an employability platform is essential to individual growth and our collective future.</p>
+            </article>
+        </main>
+        <footer>
+            <p>To know more about us, visit <a href="https://www.bridgelabz.com/" target="_blank">BridgeLabz</a> to learn more about our mission i.e <b>Employability to all.</b></p>
+        </footer>
+    </div>
+</body>
+</html>

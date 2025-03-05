@@ -1,0 +1,35 @@
+<!doctype html>
+<title>Example</title>
+<style>
+
+.cards {
+  display: flex;
+  flex-wrap: wrap; /* Allows images to wrap into multiple rows */
+  justify-content: center; /* Centers images in each row */
+  align-items: flex-start; /* Aligns images properly */
+  gap: 10px; /* Adds space between images */
+  max-width: 90vw; /* Prevents overflow */
+  margin: auto;
+}
+
+.cards img {
+  width: 200px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Ensures images fill the box while maintaining aspect ratio */
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+</style>
+<main class="cards">
+  <img src="\Sample\Pokemon1.jpg" alt="Sample photo">
+  <img src="\Sample\Pokemon2.jpg " alt="Sample photo">
+  <img src="\Sample\Pokemon3.jpg" alt="Sample photo">
+  <img src="\Sample\Pokemon4.jpg" alt="Sample photo">
+  <img src="\Sample\Pokemon5.png" alt="Sample photo">
+  <img src="\Sample\Pokemon6.jpg" alt="Sample photo">
+  <img src="\Sample\Pokemon7.jpg" alt="Sample photo">
+  <img src="\Sample\Pokemon8.jpg" alt="Sample photo">
+  <img src="\Sample\Pokemon1.jpg" alt="Sample photo">
+</main>
